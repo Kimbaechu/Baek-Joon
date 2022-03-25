@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		2537E4D027EDF67F0066853E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2537E4D227EDF73C0066853E /* 1543 문서검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543 문서검색.swift"; sourceTree = "<group>"; };
+		2537E4D327EDF7D00066853E /* 1568 새.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1568 새.swift"; sourceTree = "<group>"; };
+		2537E4D427EDF8AE0066853E /* 1302 베스트셀러.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1302 베스트셀러.swift"; sourceTree = "<group>"; };
+		2537E4D827EE01DE0066853E /* 1236 성 지키기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1236 성 지키기.swift"; sourceTree = "<group>"; };
+		2537E4D927EE12640066853E /* 1668 트로피 진열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1668 트로피 진열.swift"; sourceTree = "<group>"; };
 		965002D327EA287A0088DB5C /* 1966 프린터큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1966 프린터큐.swift"; sourceTree = "<group>"; };
 		965002D527EA2F2E0088DB5C /* 5397 키로거.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5397 키로거.swift"; sourceTree = "<group>"; };
 		965002D727EA32B30088DB5C /* 1920 수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1920 수 찾기.swift"; sourceTree = "<group>"; };
@@ -63,6 +67,10 @@
 				96FAD1BD27E905D800642DC0 /* 1874 스택 수열.swift */,
 				96FAD1BB27E901AB00642DC0 /* 2798 블랙잭.swift */,
 				2537E4D227EDF73C0066853E /* 1543 문서검색.swift */,
+				2537E4D327EDF7D00066853E /* 1568 새.swift */,
+				2537E4D427EDF8AE0066853E /* 1302 베스트셀러.swift */,
+				2537E4D827EE01DE0066853E /* 1236 성 지키기.swift */,
+				2537E4D927EE12640066853E /* 1668 트로피 진열.swift */,
 			);
 			path = sol;
 			sourceTree = "<group>";
