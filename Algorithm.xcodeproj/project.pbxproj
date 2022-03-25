@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96CF3E6C27ECE4BF009F05D1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF3E6B27ECE4BF009F05D1 /* main.swift */; };
+		2537E4D127EDF67F0066853E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537E4D027EDF67F0066853E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2537E4D027EDF67F0066853E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		965002D327EA287A0088DB5C /* 1966 프린터큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1966 프린터큐.swift"; sourceTree = "<group>"; };
 		965002D527EA2F2E0088DB5C /* 5397 키로거.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5397 키로거.swift"; sourceTree = "<group>"; };
 		965002D727EA32B30088DB5C /* 1920 수 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1920 수 찾기.swift"; sourceTree = "<group>"; };
@@ -30,7 +31,7 @@
 		96CF3E6327EB8591009F05D1 /* 2747 피보나치 수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2747 피보나치 수.swift"; sourceTree = "<group>"; };
 		96CF3E6727ECBECB009F05D1 /* 1074 Z.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1074 Z.swift"; sourceTree = "<group>"; };
 		96CF3E6927ECD08D009F05D1 /* 7490 0 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7490 0 만들기.swift"; sourceTree = "<group>"; };
-		96CF3E6B27ECE4BF009F05D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		96CF3E6B27ECE4BF009F05D1 /* 1543 문서 검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543 문서 검색.swift"; sourceTree = "<group>"; };
 		96FAD1B127E8FFA400642DC0 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FAD1B427E8FFA400642DC0 /* 2920 음계.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2920 음계.swift"; sourceTree = "<group>"; };
 		96FAD1BB27E901AB00642DC0 /* 2798 블랙잭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2798 블랙잭.swift"; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 				96FAD1B427E8FFA400642DC0 /* 2920 음계.swift */,
 				96FAD1BD27E905D800642DC0 /* 1874 스택 수열.swift */,
 				96FAD1BB27E901AB00642DC0 /* 2798 블랙잭.swift */,
+				96CF3E6B27ECE4BF009F05D1 /* 1543 문서 검색.swift */,
 			);
 			path = sol;
 			sourceTree = "<group>";
@@ -85,7 +87,7 @@
 		96FAD1B327E8FFA400642DC0 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				96CF3E6B27ECE4BF009F05D1 /* main.swift */,
+				2537E4D027EDF67F0066853E /* main.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -122,7 +124,7 @@
 				TargetAttributes = {
 					96FAD1B027E8FFA400642DC0 = {
 						CreatedOnToolsVersion = 13.2.1;
-						LastSwiftMigration = 1320;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -149,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96CF3E6C27ECE4BF009F05D1 /* main.swift in Sources */,
+				2537E4D127EDF67F0066853E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +278,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z7888YSZR7;
+				DEVELOPMENT_TEAM = 96CBZB9K9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,7 +297,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z7888YSZR7;
+				DEVELOPMENT_TEAM = 96CBZB9K9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
