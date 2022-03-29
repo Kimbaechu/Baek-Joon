@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  1092 배.swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/03/29.
 //
 
 import Foundation
