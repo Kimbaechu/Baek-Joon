@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  1927 최소 힙.swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/04/05.
 //
 
 import Foundation
@@ -14,10 +14,10 @@ func insert(_ num: Int) {
         heap.append(-1)
     }
     heap.append(num)
-    var i = heap.count-1
-    while i != 1, num < heap[i/2] {
-        heap.swapAt(i, i/2)
-        i /= 2
+    var index = heap.count-1
+    while index != 1 && num < heap[index/2] {
+        heap.swapAt(index, index/2)
+        index /= 2
     }
 }
 
@@ -48,16 +48,19 @@ func remove() -> Int? {
 }
 
 let n = Int(readLine()!)!
-var result = 0
-for _ in 0..<n {
-    insert(Int(readLine()!)!)
-}
+var result: [Int] = []
 
-while heap.count != 2 {
-    let a = remove() ?? 0
-    let b = remove() ?? 0
-    let sum = a + b
-    result += sum
-    insert(sum)
+for _ in 0..<n {
+    let x = Int(readLine()!)!
+    
+    if x == 0 {
+        if let min = remove() {
+            result.append(min)
+        } else {
+            result.append(0)
+        }
+    } else {
+        insert(x)
+    }
 }
-print(result)
+result.forEach { print($0) }
