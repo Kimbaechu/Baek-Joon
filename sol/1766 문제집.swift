@@ -1,11 +1,9 @@
 //
-//  main.swift
+//  1766 문제집.swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/04/06.
 //
-
-import Foundation
 
 var heap = [Int]()
 
@@ -77,3 +75,4 @@ while !heap.isEmpty {
 }
 
 visited.forEach { print($0, terminator: " ") }
+
