@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  1012 유기농 배추.swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/04/07.
 //
 
 import Foundation
@@ -50,3 +50,4 @@ for _ in 0..<Int(readLine()!)! {
     }
     print(result)
 }
+
