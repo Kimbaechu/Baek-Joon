@@ -42,6 +42,11 @@
 		2527013027FE179C004A7993 /* 2630 색종이 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2630 색종이 만들기.swift"; sourceTree = "<group>"; };
 		2527013127FE1AB0004A7993 /* 9095 1 2 3 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9095 1 2 3 더하기.swift"; sourceTree = "<group>"; };
 		2527013227FEFE82004A7993 /* 11726 2xn 타일링.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11726 2xn 타일링.swift"; sourceTree = "<group>"; };
+		2527013327FF00DF004A7993 /* 11279 최대 힙.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11279 최대 힙.swift"; sourceTree = "<group>"; };
+		2527013427FF05E8004A7993 /* 11724 연결 요소의 개수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11724 연결 요소의 개수.swift"; sourceTree = "<group>"; };
+		2527013527FF118D004A7993 /* 7576 토마토.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7576 토마토.swift"; sourceTree = "<group>"; };
+		2527013627FF209B004A7993 /* 7662 이중 우선순위 큐.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7662 이중 우선순위 큐.swift"; sourceTree = "<group>"; };
+		2527013727FF22D4004A7993 /* 9461 파도반 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9461 파도반 수열.swift"; sourceTree = "<group>"; };
 		2537E4D027EDF67F0066853E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2537E4D227EDF73C0066853E /* 1543 문서검색.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1543 문서검색.swift"; sourceTree = "<group>"; };
 		2537E4D327EDF7D00066853E /* 1568 새.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1568 새.swift"; sourceTree = "<group>"; };
@@ -135,6 +140,11 @@
 				2527013027FE179C004A7993 /* 2630 색종이 만들기.swift */,
 				2527013127FE1AB0004A7993 /* 9095 1 2 3 더하기.swift */,
 				2527013227FEFE82004A7993 /* 11726 2xn 타일링.swift */,
+				2527013327FF00DF004A7993 /* 11279 최대 힙.swift */,
+				2527013427FF05E8004A7993 /* 11724 연결 요소의 개수.swift */,
+				2527013527FF118D004A7993 /* 7576 토마토.swift */,
+				2527013627FF209B004A7993 /* 7662 이중 우선순위 큐.swift */,
+				2527013727FF22D4004A7993 /* 9461 파도반 수열.swift */,
 			);
 			path = sol;
 			sourceTree = "<group>";
