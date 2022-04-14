@@ -30,7 +30,7 @@ func bfs() {
             let nx = x + dx[i]
             let ny = y + dy[i]
             
-            if !(nx < 0 || ny < 0 || nx >= n || ny >= m) {
+            if nx >= 0, ny >= 0, nx < n, ny < m {
                 if box[nx][ny] == 0 {
                     q.append((nx, ny))
                     box[nx][ny] = box[x][y] + 1
