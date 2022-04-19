@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  15654 N과 M (5).swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/04/20.
 //
 
 import Foundation
@@ -12,25 +12,20 @@ let n = nm[0]
 let m = nm[1]
 let arr = readLine()!.split(separator: " ").map { Int(String($0))! }.sorted()
 var visited = Array(repeating: false, count: n)
-var ans: [String] = []
 
 func dfs(depth: Int, result: String) {
-    var last = 0
     if depth == m {
-        ans.append(result)
+        print(result)
         return
     }
     
     for i in 0..<n {
-        if !visited[i], last != arr[i] {
+        if !visited[i] {
             visited[i] = true
             dfs(depth: depth + 1, result: result + "\(arr[i]) ")
-            last = arr[i]
             visited[i] = false
         }
     }
 }
 
 dfs(depth: 0, result: "")
-ans.forEach { print($0) }
-

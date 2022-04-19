@@ -77,6 +77,10 @@
 		258BD1D2280EE50B00E1C2EC /* 15652 N과 M (4).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15652 N과 M (4).swift"; sourceTree = "<group>"; };
 		258BD1D3280EF33600E1C2EC /* 15649 N과 M (1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15649 N과 M (1).swift"; sourceTree = "<group>"; };
 		258BD1D4280EF5A700E1C2EC /* 15650 N과 M (3).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15650 N과 M (3).swift"; sourceTree = "<group>"; };
+		258BD1D5280F1F8400E1C2EC /* 15654 N과 M (5).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15654 N과 M (5).swift"; sourceTree = "<group>"; };
+		258BD1D6280F228700E1C2EC /* 15657 N과 M (8).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15657 N과 M (8).swift"; sourceTree = "<group>"; };
+		258BD1D7280F237A00E1C2EC /* 15666 N과 M (12).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15666 N과 M (12).swift"; sourceTree = "<group>"; };
+		258BD1D8280F272400E1C2EC /* 15663 N과 M (9).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15663 N과 M (9).swift"; sourceTree = "<group>"; };
 		259DCE5F2801CCB2009D65C0 /* 1107 리모컨.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1107 리모컨.swift"; sourceTree = "<group>"; };
 		259DCE602804501A009D65C0 /* 5430 AC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5430 AC.swift"; sourceTree = "<group>"; };
 		259DCE612805AFB2009D65C0 /* 7569 토마토.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7569 토마토.swift"; sourceTree = "<group>"; };
@@ -193,6 +197,10 @@
 				258BD1D1280D7ED000E1C2EC /* 15650 N과 M (2).swift */,
 				258BD1D4280EF5A700E1C2EC /* 15650 N과 M (3).swift */,
 				258BD1D2280EE50B00E1C2EC /* 15652 N과 M (4).swift */,
+				258BD1D5280F1F8400E1C2EC /* 15654 N과 M (5).swift */,
+				258BD1D6280F228700E1C2EC /* 15657 N과 M (8).swift */,
+				258BD1D8280F272400E1C2EC /* 15663 N과 M (9).swift */,
+				258BD1D7280F237A00E1C2EC /* 15666 N과 M (12).swift */,
 			);
 			path = sol;
 			sourceTree = "<group>";
