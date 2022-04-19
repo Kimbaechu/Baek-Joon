@@ -8,19 +8,18 @@
 import Foundation
 
 let nm = readLine()!.split(separator: " ").map { Int($0)! }
+let n = nm[0]
+let m = nm[1]
 
-func makeSeries(_ n: Int, _ m: Int, _ start: Int, _ result: [Int]) {
-    if m == 0 {
-        result.forEach { print($0, terminator: " ") }
-        print()
+func dfs(start: Int, depth: Int, result: String) {
+    if depth == m {
+        print(result)
         return
     }
     
-    for i in start...(n - m + 1) {
-        var tmp = result
-        tmp.append(i)
-        makeSeries(n, m - 1, i + 1, tmp)
+    for i in start..<n {
+        dfs(start: i+1, depth: depth+1, result: result + "\(i+1) ")
     }
 }
 
-makeSeries(nm[0], nm[1], 1, [])
+dfs(start: 0, depth: 0, result: "")
