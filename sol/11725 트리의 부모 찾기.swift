@@ -21,14 +21,12 @@ var parent = Array(repeating: -1, count: n+1)
 
 func dfs(_ i: Int) {
     visited[i] = true
-
+    
     for next in adj[i] {
-        if visited[next] {
-            continue
+        if !visited[next] {
+            parent[next] = i
+            dfs(next)
         }
-
-        parent[next] = i
-        dfs(next)
     }
 }
 
