@@ -7,7 +7,7 @@
 
 import Foundation
 
-let ab = readLine()!.split(separator: " ").map{Int(String($0))!}
+let ab = readLine()!.split(separator: " ").map { Int($0)! }
 var (a, b) = (ab[0], ab[1])
 var cnt = 1
 
