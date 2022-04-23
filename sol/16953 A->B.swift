@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  16953 A->B.swift
 //  Algorithm
 //
-//  Created by Beomcheol Kwon on 2022/03/25.
+//  Created by Beomcheol Kwon on 2022/04/23.
 //
 
 import Foundation
@@ -27,5 +27,3 @@ if a == b {
 } else {
     print(-1)
 }
-
-
