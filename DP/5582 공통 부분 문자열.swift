@@ -10,7 +10,7 @@ import Foundation
 let a = Array(readLine()!)
 let b = Array(readLine()!)
 var result = 0
-var dp = Array(repeating: Array(repeating: 0, count: b.count + 1), count: a.count + 1)
+var dp = Array(repeating: Array(repeating: 0, count: b.count+1), count: a.count+1)
 
 for i in 1...a.count {
     for j in 1...b.count {
